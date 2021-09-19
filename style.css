@@ -1,0 +1,113 @@
+* {
+  font-family: 'Caveat';
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  text-align: center;
+  color: #a7a6a6;
+}
+
+body {
+  font-size: 24px !important;
+}
+
+#nav {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#nav-menu a {
+  font-size: .9em;
+  color: #a7a6a6;
+  transition: all 0.3s ease-out;
+}
+
+#nav-menu a:hover {
+  color: #fbc83b;
+}
+
+.secao {
+  padding-top: 75px;
+}
+
+#secao-bebidas {
+  background-color: #D3EAF8;
+}
+
+.my-card {
+  height: 400px;
+  min-width: 300px;
+  width: 300px;
+  display: flex;
+  padding: 15px 15px 30px 15px;
+  margin: 13px;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: white;
+  border-radius: 40px;
+  box-shadow: 0 20px 20px 8px rgba(194, 194, 194, 0.4);
+  transition: transform .2s;
+}
+
+.my-card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 20px 20px 8px rgba(194, 194, 194, 0.6);
+  cursor: pointer;
+}
+
+.my-card h3 {
+  font-size: 1em;
+}
+
+.my-card p {
+  font-size: .8em;
+}
+
+.my-card .preco-card {
+  font-size: 1.4em;
+  color: #fbc83b;
+}
+
+.imagem {
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
+}
+
+.tabela table {
+  height: 400px;
+}
+
+th {
+  background-color: #fbc83b;
+  color: white;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  font-size: .8em;
+  width: 350px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+footer{
+  background-color: #fbc83b;
+}
+
+#footer-menu li{
+  display: inline-block;
+  margin: auto 10px;
+  word-wrap: break-word;
+}
+
+footer a {
+  font-size: 1em;
+  text-decoration: none !important;
+  color: white;
+}

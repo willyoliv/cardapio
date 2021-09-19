@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <title>Cardápio</title>
+</head>
+
+<body>
+  <header>
+    <!-- Menu de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <h1>Cardápio</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav" id="nav-menu">
+            <a class="nav-link active" href="#secao-pizzas">Pizzas</a>
+            <a class="nav-link" href="#secao-bebidas">Sucos</a>
+            <a class="nav-link" href="#secao-tabelas-precos">Tabelas de preços</a>
+            <a class="nav-link" href="formulario.html">Formulário</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="container secao" id="secao-pizzas">
+      <div class="text-center">
+        <h2>Pizzas</h2>
+      </div>
+      <div class="d-flex flex-row justify-content-center flex-wrap">
+        <div class="my-card">
+          <div>
+            <img class="imagem" src="./image/pizza1.png" alt="Pizza">
+          </div>
+          <h3>A moda da Casa</h3>
+          <p>
+            Nossa <b>melhor</b> pizza. Feita com os melhores ingredientes.
+          </p>
+          <h3 class="preco-card">
+            R$ 29,90
+          </h3>
+        </div>
+        <div class="my-card">
+          <div>
+            <img class="imagem" src="./image/pizza2.png" alt="Pizza">
+          </div>
+          <h3>Marguerita</h3>
+          <p>
+            Molho de tomate, mussarela, tomates fatiados, azeitonas e orégano.
+          </p>
+          <h3 class="preco-card">
+            R$ 29,90
+          </h3>
+        </div>
+        <div class="my-card">
+          <div>
+            <img class="imagem" src="./image/pizza3.png" alt="Pizza">
+          </div>
+          <h3>Calabrasa</h3>
+          <p>
+            Molho de tomate, mussarela, calabresa fatiada, cebola e orégano.
+          </p>
+          <h3 class="preco-card">
+            R$ 29,90
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção com listagem das bebidas -->
+    <section class="secao" id="secao-bebidas">
+      <div class="container">
+        <div class="text-center">
+          <h2>Sucos</h2>
+        </div>
+        <div class="d-flex flex-row justify-content-center flex-wrap">
+          <div class="my-card">
+            <div>
+              <img class="imagem" src="./image/suco-de-laranja.png" alt="Suco">
+            </div>
+            <h3>Suco de Laranja</h3>
+            <p>
+              Suco 100% natural, feito com laranjas frescas.
+            </p>
+            <h3 class="preco-card">
+              R$ 5,90
+            </h3>
+          </div>
+          <div class="my-card">
+            <div>
+              <img class="imagem" src="./image/suco-de-abacaxi.png" alt="Suco">
+            </div>
+            <h3>Suco de Abacaxi</h3>
+            <p>
+              Suco 100% natural, feito com abacaxis frescos.
+            </p>
+            <h3 class="preco-card">
+              R$ 5,90
+            </h3>
+          </div>
+          <div class="my-card">
+            <div>
+              <img class="imagem" src="./image/suco-de-limao.png" alt="Suco">
+            </div>
+            <h3>Suco de Limão</h3>
+            <p>
+              Suco 100% natural, feito com limões frescos.
+            </p>
+            <h3 class="preco-card">
+              R$ 5,90
+            </h3>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Seção com as tabelas -->
+    <section class="container secao mb-3" id="secao-tabelas-precos">
+      <div class="text-center">
+        <h2>Tabelas de preços</h2>
+      </div>
+      <div class="d-flex flex-row justify-content-center flex-wrap">
+        <div class="tabela" id="tabela-bebidas">
+          <table>
+            <thead>
+              <tr>
+                <th>Bebida</th>
+                <th>Preço</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Coca-Cola 1L</td>
+                <td><i>R$</i> 4,29</td>
+              </tr>
+              <tr>
+                <td>Coca-Cola 1.5L</td>
+                <td><i>R$</i> 6,19</td>
+              </tr>
+              <tr>
+                <td>Coca-Cola 2L</td>
+                <td><i>R$</i> 8,09</td>
+              </tr>
+              <tr>
+                <td>Refrigerante ANTARCTICA Guaraná Lata 350ml</td>
+                <td><i>R$</i> 2,49</td>
+              </tr>
+              <tr>
+                <td>Refrigerante ANTARCTICA Guaraná 1l</td>
+                <td><i>R$</i> 5,00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="tabela" id="tabela-comidas">
+          <table>
+            <thead>
+              <tr>
+                <th>Comidas</th>
+                <th>Preço</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Coxinha</td>
+                <td><i>R$</i> 5,00</td>
+              </tr>
+              <tr>
+                <td>Pastel</td>
+                <td><i>R$</i> 5,00</td>
+              </tr>
+              <tr>
+                <td>Empada</td>
+                <td><i>R$</i> 7,50</td>
+              </tr>
+              <tr>
+                <td>Quibe</td>
+                <td><i>R$</i> 5,17</td>
+              </tr>
+              <tr>
+                <td>Risole de Frango</td>
+                <td><i>R$</i> 4,80</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer d-flex flex-column justify-content-center">
+    <div class="align-self-center" id="footer-menu">
+      <ul>
+        <li><a class="text-white align-self-sm-center" href="#secao-pizzas">Pizzas</a></li>
+        <li><a class="text-white align-self-sm-center" href="#secao-bebidas">Sucos</a></li>
+        <li><a class="text-white align-self-sm-center" href="#secao-tabelas-precos">Tabelas de preços</a></li>
+        <li><a class="text-white align-self-sm-center" href="formulario.html">Formulário</a></li>
+      </ul>
+    </div>
+    <div class="align-self-center text-white">
+      <h4>Cardápio &copy; 2021</h4>
+    </div>
+  </footer>
+</body>
+
+</html>
