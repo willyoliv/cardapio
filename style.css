@@ -29,11 +29,11 @@ body {
   color: #fbc83b;
 }
 
-.secao {
+.section-page {
   padding-top: 75px;
 }
 
-#secao-bebidas {
+#drinks-section {
   background-color: #D3EAF8;
 }
 
@@ -67,18 +67,18 @@ body {
   font-size: .8em;
 }
 
-.my-card .preco-card {
+.my-card .price-card {
   font-size: 1.4em;
   color: #fbc83b;
 }
 
-.imagem {
+.image {
   width: 200px;
   height: 200px;
   object-fit: fill;
 }
 
-.tabela table {
+.tables table {
   height: 400px;
 }
 
@@ -98,12 +98,17 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
 footer{
   background-color: #fbc83b;
+  text-align: center;
 }
 
 #footer-menu li{
   display: inline-block;
   margin: auto 10px;
   word-wrap: break-word;
+}
+
+#footer-menu ul{
+  padding: 0px;
 }
 
 footer a {
